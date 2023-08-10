@@ -7,7 +7,7 @@ class Employees(models.Model):
     position_work = models.CharField(max_length=50, null=False)
     email = models.CharField(max_length=50, null=True)
     phone = models.CharField(max_length=50, null=True)
-    title = models.CharField(max_length=50, null=False)
+    title = models.CharField(max_length=1000, null=False)
 
 
 # Create your models here.
